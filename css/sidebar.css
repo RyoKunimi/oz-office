@@ -1,0 +1,20 @@
+#logo{
+    position: absolute; /*absoluteに設定*/
+    height: 50px;
+    width: 100px;
+    z-index: 100;
+}
+
+.sidebar{
+    position: fixed;
+    color: #fff; /* 好みに応じて調節してください */
+    z-index: 90;
+  }
+ 
+.sidebar.left {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 270px; /*この値は調節してください。*/
+  background: #448AFF; /*背景色も好みに応じにて調節してください。*/
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LEBECCA  oz-office Ver.β</title>
+    <link rel="stylesheet" href="css/desk.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.1.0/jquery.sidebar.min.js"></script>
+    <script src="https://kit.fontawesome.com/8626ab3bc8.js" crossorigin="anonymous"></script>
+    <script src="js/sidebar.js"></script>
+  </head>
+  <body onLoad="init()"><div class="toolbar">
+    <div id="logo">
+      <a href="#" class="btn" data-action="toggle" data-side="left">
+        <img id="logo" src="img/oz-office.PNG"></img>
+      </a>
+    </div>
+    <div class="sidebar left">
+      <ul div="sidebar-content">
+        <li><i class="fa fa-cog fa-2x cog-menu">プロフィール編集</i></li>
+        <li><i class="fa fa-user fa-2x cog-menu"></i></li>
+        <li><i class="fa fa-search fa-2x cog-menu"></i></li>
+        <li><i class="fa fa-calendar fa-2x cog-menu">設定</i></li>
+      </ul>
+    </div>
+    <!-- main -->
+    <div class="sample-box">
+      <img id="canvas-img" src="https://s3.ap-northeast-1.amazonaws.com/ovice.in/upload/background/No.53_workspace__luxury.jpg"></img>
+      <!--<img id="logo" src="img/oz-office.PNG" onclick="switchMenu()"></img>-->
+      <canvas id="canvas" width="1225" height="665"></canvas>
+      <script type="text/javascript" src="js/canvas.js"></script>
+    </div>
+    <!-- https://qiita.com/kyrieleison/items/26fcfb3a1d94bc92c596 -->
+    <!-- Aタグのclass="btn"は必須です。 -->
+  </body>
+</html>
