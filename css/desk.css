@@ -1,10 +1,3 @@
-#logo{
-  position: absolute; /*absoluteに設定*/
-  width: 200px;
-  height: 100px;
-  z-index: 2;
-}
-
 #canvas-img{
   position: absolute; /*absoluteに設定*/
 }
